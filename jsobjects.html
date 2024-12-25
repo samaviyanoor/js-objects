@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+<title> </title>
+</head>
+
+<body>
+
+<p id="demo"
+style="font-size: x-large;
+background-color: antiquewhite;
+width: 300px; border: 1px solid black; margin: auto;"> </p>
+
+<script>
+
+var person= {
+
+
+name: "Samaviya",
+age: "18",
+hobby: "coding",
+pronoun: "she",
+
+};
+
+
+document.getElementById("demo").innerHTML= person.name + " is " + person.age +
+" years old and " + person.pronoun + " likes " + person.hobby;
+
+document.getElementById("demo").innerHTML= person["name"] + " is " + person["age"] +
+" years old and " + person["pronoun"]+ " likes " + person["hobby"];
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
